@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhu's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#home">home</a></li>
+            <li class="link"><a href="#projects">projects</a></li>
+            <li class="link"><a href="#about">about</a></li>
+            <li class="link"><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="home-section" id="home">
+        <h1 class="hero-heading">hello, i am <br> Madhu...</h1>
+        <img src="image.jpg" class="home-img" alt="madhu's profile image">
+    </section>
+
+    <section class="project-section" id="projects">
+        <h1 class="project-heading">some of my projects</h1>
+
+        <div class="project-container">
+            
+            <!-- Project Card 2 -->
+            <div class="project-card">
+            <div class="project-card">
+                <img src="project-2.jpg" class="project-img" alt="Project 4">
+                <div class="project-content">
+                    <h1 class="project-title">💼 Hustle Hub</h1>
+                    <p class="project-info">
+                        A flexible work platform connecting students and individuals with part-time opportunities. Users can hire talent or showcase their skills seamlessly through a modern, user-friendly design.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github"><a href="https://github.com/Sirisha05n4/Hustle-Hub">github repo</a></button>
+                        <button class="project-btn live"><a href="https://sirisha05n4.github.io/Hustle-Hub/">See Live</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    
+    <section class="about-section" id="about">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="image.jpg" class="about-img" alt="madhu's profile image">
+                <button class="download-cv-btn"><a href="12img.png">Download CV</a></button>
+            </div>
+            <p class="about-info">I'm a passionate and results-driven full-stack developer with a focus on creating intuitive and high-performance web applications. My expertise lies in building dynamic user interfaces and robust backend systems that scale. I thrive on solving complex problems and am always eager to learn new technologies to deliver innovative solutions.</p>
+        </div>
+
+        <div class="toggle-buttons">
+            <button class="toggle-btn active" data-target="skills-content">Skills</button>
+            <button class="toggle-btn" data-target="certifications-content">Certifications</button>
+            <button class="toggle-btn" data-target="coding-profiles-content">Coding Profiles</button>
+        </div>
+    
+        <div id="skills-content" class="content-section">
+            <div class="skill-section">
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <img src="icons/java.png" class="skill-img" alt="Java Icon">
+                        <div class="skill-level">84%</div>
+                        <h1 class="skill-name">Java</h1>
+                        <p class="skill-info">Proficient in Java, with a strong understanding of object-oriented programming principles and experience in enterprise application development.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="icons/python.png" class="skill-img" alt="Python Icon">
+                        <div class="skill-level">90%</div>
+                        <h1 class="skill-name">Python</h1>
+                        <p class="skill-info">Highly skilled in Python for data analysis, automation, and backend development. Extensive experience with frameworks like Django and Flask.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="icons/html.png" class="skill-img" alt="HTML Icon">
+                        <div class="skill-level">98%</div>
+                        <h1 class="skill-name">HTML</h1>
+                        <p class="skill-info">Expert in building responsive and accessible web layouts. I have a keen eye for design and create seamless user experiences using modern front-end technologies.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="icons/css.png" class="skill-img" alt="CSS Icon">
+                        <div class="skill-level">95%</div>
+                        <h1 class="skill-name">CSS</h1>
+                        <p class="skill-info">Expert in building responsive and accessible web layouts. I have a keen eye for design and create seamless user experiences using modern front-end technologies.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="icons/javascript.png" class="skill-img" alt="JS Icon">
+                        <div class="skill-level">80%</div>
+                        <h1 class="skill-name">JavaScript</h1>
+                        <p class="skill-info">Experienced in building dynamic websites and interactive web applications with JavaScript, leveraging modern frameworks and libraries.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="icons/react.png" class="skill-img" alt="React Icon">
+                        <div class="skill-level">75%</div>
+                        <h1 class="skill-name">React</h1>
+                        <p class="skill-info">Experienced in building single-page applications with React, utilizing hooks and state management to create highly interactive and efficient user interfaces.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="icons/git.png" class="skill-img" alt="Git Icon">
+                        <div class="skill-level">85%</div>
+                        <h1 class="skill-name">Git</h1>
+                        <p class="skill-info">Proficient in version control using Git, including branching, merging, and collaborative workflows with platforms like GitHub and GitLab.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="icons/c.png" class="skill-img" alt="C Icon">
+                        <div class="skill-level">70%</div>
+                        <h1 class="skill-name">C</h1>
+                        <p class="skill-info">Solid understanding of C programming fundamentals, including memory management, pointers, and building efficient low-level applications.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="certifications-content" class="content-section" style="display: none;">
+            <div class="certifications-section">
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <img src="img1.png" class="skill-img" alt="JS Essentials">
+                        <h1 class="skill-name">JS Essentials-1</h1>
+                        <p class="skill-info">CiscoNetWorkingAcademy</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img2.png" class="skill-img" alt="JS Essentials">
+                        <h1 class="skill-name">JS Essentials-2</h1>
+                        <p class="skill-info">CiscoNetWorkingAcademy</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img3.png" class="skill-img" alt="JS Essentials">
+                        <h1 class="skill-name"> Brainovision</h1>
+                        <p class="skill-info">Nasscom</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img4.png" class="skill-img" alt="JS Essentials">
+                        <h1 class="skill-name"> Python Essentials-1</h1>
+                        <p class="skill-info">CiscoNetWorkingAcademy</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img5.png" class="skill-img" alt="JS Essentials">
+                        <h1 class="skill-name">C-Essentials</h1>
+                        <p class="skill-info">CiscoNetWorkingAcademy</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img7.png" class="skill-img" alt="JS Essentials">
+                        <h1 class="skill-name">StanfordOnline</h1>
+                        <p class="skill-info">EDX</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img8.png" class="skill-img" alt="JS Essentials">
+                        <h1 class="skill-name">NPTEL Online</h1>
+                        <p class="skill-info">SwayamAcademy</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img9.png" class="skill-img" alt="JS Essentials">
+                        <h1 class="skill-name">JavaFoundations</h1>
+                        <p class="skill-info">OracleAcademy</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img10.png" class="skill-img" alt="JS Essentials">
+                        <h1 class="skill-name">HTML Essentials</h1>
+                        <p class="skill-info">CiscoNetWorkingAcademy</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img11.png" class="skill-img" alt="JS Essentials">
+                        <h1 class="skill-name">CSS Essentials</h1>
+                        <p class="skill-info">CiscoNetWorkingAcademy</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img6.png" class="skill-img" alt="JS Essentials">
+                        <h1 class="skill-name">Programming Essentials in C</h1>
+                        <p class="skill-info">CiscoNetWorkingAcademy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="coding-profiles-content" class="content-section" style="display: none;">
+            <div class="coding-profiles-section">
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <img src="icons/leetcode.png" class="skill-img" alt="LeetCode Profile">
+                        <div class="skill-level">300+</div>
+                        <h1 class="skill-name">LeetCode</h1>
+                        <p class="skill-info">Rankings and problem-solving skills showcase.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="icons/hackerrank.png" class="skill-img" alt="HackerRank Profile">
+                        <div class="skill-level">5 Star</div>
+                        <h1 class="skill-name">HackerRank</h1>
+                        <p class="skill-info">Skills in algorithms and data structures.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="icons/codecheff.png" class="skill-img" alt="CodeChef Profile">
+                        <div class="skill-level">Rating 1600+</div>
+                        <h1 class="skill-name">CodeChef</h1>
+                        <p class="skill-info">Competitive programming skills and rankings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        
+        <form class="contact-form">
+            <h1 style="margin-bottom: 50px;color: #f1561e;font-size: 45px;text-shadow: 9px 7px 7px rgb(76, 62, 78);">Get in touch buddyy...</h1>
+            <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+            <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+            <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+            <button type="submit" class="form-submit-btn">contact</button>
+        </form>
+        <div class="map">
+             <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.057278895801!2d82.000000!3d16.583333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37a3f3f3f3f3f3%3A0x123456789abcdef!2sAmalapuram%2C%20Andhra%20Pradesh%2C%20India%20near%20S.%20Yanam!5e0!3m2!1sen!2sin!4v1699489002410!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            ></iframe>
+        </div>
+        
+    </section>
+    <center>
+             <footer>
+                <p>&copy; 2024 Joseph . All rights reserved.</p>
+            </footer>
+
+        </center>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleButtons = document.querySelectorAll('.toggle-btn');
+            const contentSections = document.querySelectorAll('.content-section');
+
+            function showSection(targetId) {
+                contentSections.forEach(section => {
+                    section.style.display = 'none';
+                });
+
+                // trgt sec
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.style.display = 'block';
+                }
+
+                toggleButtons.forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                document.querySelector(`[data-target="${targetId}"]`).classList.add('active');
+            }
+
+            toggleButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const targetId = button.getAttribute('data-target');
+                    showSection(targetId);
+                });
+            });
+
+            showSection('skills-content');
+        });
+
+        //smoke
+        function createSmoke() {
+            let smoke = document.createElement("div");
+            smoke.classList.add("smoke");
+
+            smoke.style.left = Math.random() * window.innerWidth + "px";
+
+            document.body.appendChild(smoke);
+
+            setTimeout(() => smoke.remove(), 5000); 
+        }
+
+        setInterval(createSmoke, 300);
+    </script>
+</body>
+</html>
